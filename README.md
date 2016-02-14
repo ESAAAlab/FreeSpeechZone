@@ -1,6 +1,6 @@
 # Free Speech Zone*
 Wifi-Connected Thermal Printer, censoring everything people say.
-
+![poster](https://raw.githubusercontent.com/melka/FreeSpeechZone/master/docs/poster_en.jpg)
 
 #### Introduction
 After finding a Bixolon STP-103 Thermal Printer in a trash, adding an ESP8266 module and using node and a MQTT server, this project allows people to send their messages to the printer via [this page](http://www.blaste.net/expression).
