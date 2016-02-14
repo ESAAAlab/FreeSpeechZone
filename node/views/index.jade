@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  div(class='col-md-10 col-md-offset-1 centered')
+    form(id='thermal-form',class='form-container',data-ajax='false')
+      div(class='row')
+        div(class='col-md-12')
+          h2(class='form-title') FREE SPEECH ZONE*
+      div(class='row')
+        div(class='col-md-12')
+          textarea(onfocus='this.value="";',class='form-field',rows='5',id='message',name='message')
+      div(class='row')
+        div(class='col-md-10 col-xs-8') 
+          p(id='character_countdown') #[span(id='maxlength') 110] characters left
+        div(class='col-md-2 col-xs-4')
+          input(class='submit-button',type='submit',value='PRINT')
+      div(class='row')
+        div(class='col-xs-12')
+          p(id='notabene') *  In order to respect sensitivities, offensive messages can be moderated. Thank you for your understanding.
+
+              

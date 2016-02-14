@@ -1,0 +1,6 @@
+ESAAA
+.DS_Store
+firmware/.gitignore
+firmware/.travis.yml
+node/node_modules/
+node/npm-debug.log
